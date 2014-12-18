@@ -1,0 +1,25 @@
+{
+  "name": "swagger-qa",
+  "version": "1.0.0",
+  "description": "Swagger automation test",
+  "main": "swagger_qa.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qquach/swagger-qa.git"
+  },
+  "keywords": [
+    "swagger",
+    "test",
+    "qa",
+    "automation"
+  ],
+  "author": "Quoc Quach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qquach/swagger-qa/issues"
+  },
+  "homepage": "https://github.com/qquach/swagger-qa"
+}
