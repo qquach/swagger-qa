@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/jFormat.js"></script>
+  <script type="text/javascript" src="js/jFramework.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/base.css"/>
+</head>
+<body>
+  <div id="page_wrapper">
+    <div id="page_header"></div>
+    <div id="page_body"></div>
+    <div id="page_footer"></div>
+  </div>
+  <template id="page_header_template">
+    <a href="@hashPath('')">
+      <h1>Swagger QA</h1>
+      <h3>A web service automation test tool</h3>
+    </a>
+  </template>
+  <template id="page_footer_template">
+    <p>
+      <strong>jFramework © 2014 Quoc Quach</strong>
+    </p>
+    <p>
+      contact information: quoc_cooc@yahoo.com
+    </p>
+  </template>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.jf.bootstrap();
+    });
+  </script>
+</body>
+</html>
